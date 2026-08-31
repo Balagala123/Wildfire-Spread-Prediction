@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Jun  2 22:46:18 2025
 
-@author: olivi
-"""
 
 # PyTorch training pipeline using the HadamardUnet
 import os, sys, json, re
