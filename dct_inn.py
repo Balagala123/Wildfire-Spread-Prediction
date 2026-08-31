@@ -1,17 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jun 23 13:03:15 2025
 
-@author: sowmyabalagala
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Mon May 19 15:41:28 2025
-
-@author: Dell
-"""
 
 import torch
 import torch.nn as nn
