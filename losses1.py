@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri May 16 17:13:31 2025
 
-@author: Dell
-"""
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
