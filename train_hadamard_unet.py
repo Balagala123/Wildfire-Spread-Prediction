@@ -30,9 +30,9 @@ from losses1 import combo_loss
 from metrics import AUCWithMaskedClass, PrecisionWithMaskedClass, RecallWithMaskedClass, masked_iou, compute_best_threshold
 
 class HParams:
-    train_path = "/Users/sowmyabalagala/Downloads/archive/next_day_wildfire_spread_train_*.tfrecord"
-    eval_path  = "/Users/sowmyabalagala/Downloads/archive/next_day_wildfire_spread_eval_*.tfrecord"
-    test_path = "/Users/sowmyabalagala/Downloads/archive/next_day_wildfire_spread_test_*.tfrecord"
+    train_path = "/archive/next_day_wildfire_spread_train_*.tfrecord"
+    eval_path  = "archive/next_day_wildfire_spread_eval_*.tfrecord"
+    test_path = "archive/next_day_wildfire_spread_test_*.tfrecord"
     input_features = list(INPUT_FEATURES)
     output_features = ["FireMask"]
     data_sample_size = 64
